@@ -1,1 +1,90 @@
-
+<html>
+<head>
+  <style>
+    /* This is the CSS code that controls the style and appearance of the web page */
+    body {
+      background-color: black; /* The background color of the web page is black */
+      font-family: Arial, sans-serif; /* The font family of the web page is Arial, sans-serif */
+      color: white; /* The text color of the web page is white */
+    }
+    h1 {
+      text-align: center; /* The main heading is centered */
+      font-size: 50px; /* The font size of the main heading is 50 pixels */
+      margin-top: 50px; /* The top margin of the main heading is 50 pixels */
+    }
+    h2 {
+      text-align: center; /* The subheadings are centered */
+      font-size: 30px; /* The font size of the subheadings is 30 pixels */
+      margin-top: 30px; /* The top margin of the subheadings is 30 pixels */
+    }
+    p {
+      text-align: justify; /* The paragraphs are justified */
+      font-size: 20px; /* The font size of the paragraphs is 20 pixels */
+      margin: 20px; /* The margin of the paragraphs is 20 pixels */
+    }
+    .container {
+      display: flex; /* The container element uses flexbox layout */
+      flex-wrap: wrap; /* The container element wraps its children if necessary */
+      justify-content: center; /* The container element aligns its children horizontally in the center */
+      align-items: center; /* The container element aligns its children vertically in the center */
+    }
+    .card {
+      width: 300px; /* The width of each card element is 300 pixels */
+      height: 400px; /* The height of each card element is 400 pixels */
+      margin: 10px; /* The margin of each card element is 10 pixels */
+      border: 5px solid white; /* The border of each card element is 5 pixels solid white */
+      border-radius: 10px; /* The border radius of each card element is 10 pixels */
+      box-shadow: 0 0 10px rgba(255,255,255,0.5); /* The box shadow of each card element is a white glow with some transparency */
+    }
+    .card img {
+      width: 100%; /* The width of the image in each card element is 100% of its parent's width */
+      height: 60%; /* The height of the image in each card element is 60% of its parent's height */
+      object-fit: cover; /* The image in each card element covers its entire area without stretching or cropping */
+      border-top-left-radius: 10px; /* The top left corner of the image in each card element has a border radius of 10 pixels */
+      border-top-right-radius: 10px; /* The top right corner of the image in each card element has a border radius of 10 pixels */
+    }
+    .card h3 {
+      text-align: center; /* The title in each card element is centered */
+      font-size: 25px; /* The font size of the title in each card element is 25 pixels */
+      margin-top: 10px; /* The top margin of the title in each card element is 10 pixels */
+    }
+    .card p {
+      text-align: center; /* The description in each card element is centered */
+      font-size: 15px; /* The font size of the description in each card element is 15 pixels */
+      margin-top: 5px; /* The top margin of the description in each card element is 5 pixels */
+    }
+    .card button {
+      display: block; /* The button in each card element is displayed as a block-level element */
+      width: 80%; /* The width of the button in each card element is 80% of its parent's width */
+      height: 40px; /* The height of the button in each card element is 40 pixels */
+      margin-left: auto; /* The left margin of the button in each card element is automatically calculated to center it horizontally */
+      margin-right: auto; /* The right margin of the button in each card element is automatically calculated to center it horizontally */
+      margin-bottom: 10px; /* The bottom margin of the button in each card element is 10 pixels */
+      background-color: white; /* The background color of the button in each card element is white */
+      color: black; /* The text color of the button in each card element is black */
+      font-size: 20px; /* The font size of the button in each card element is 20 pixels */
+      border: none; /* The button in each card element has no border */
+      border-radius: 10px; /* The button in each card element has a border radius of 10 pixels */
+      cursor: pointer; /* The cursor changes to a pointer when hovering over the button in each card element */
+    }
+    .card button:hover {
+      background-color: gray; /* The background color of the button in each card element changes to gray when hovering over it */
+      color: white; /* The text color of the button in each card element changes to white when hovering over it */
+    }
+  </style>
+</head>
+<body>
+  <h1>CyMet Studios</h1> <!-- This is the main heading of the web page -->
+  <h2>We make awesome games</h2> <!-- This is a subheading of the web page -->
+  <p>Welcome to our website. We are a game studio that creates fun and engaging games for various platforms. Here are some of our latest projects:</p> <!-- This is a paragraph of the web page -->
+  <div class="container"> <!-- This is a container element that holds the card elements -->
+    <div class="card"> <!-- This is a card element that showcases one game -->
+      <img src="smth.jpg" alt="EDIE"> <!-- This is an image of the game -->
+      <h3>EDIE</h3> <!-- This is the title of the game -->
+      <p>A FPS game where you shoot down enemies and re-establish democracy in your country.</p> <!-- This is the description of the game -->
+      <button onclick = "window.location.href = ''">Buy Now</button> <!-- This is a button that links to the game -->
+    </div>
+    </div>
+  </div>
+</body>
+</html>
